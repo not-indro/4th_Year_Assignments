@@ -1,0 +1,16 @@
+Certainly! The problem describes a scenario where there are three boxes of tennis balls, each labeled incorrectly. One box contains only yellow balls, one contains only white balls, and one contains both yellow and white balls. The goal is to determine the correct labeling of the boxes based on observations and initial labels.
+
+The symbols used in the propositional logic representation are as follows:
+
+- O1Y: A yellow ball was observed from box 1.
+- O2W: A white ball was observed from box 2.
+- O3Y: A yellow ball was observed from box 3.
+- L1W: Box 1 was initially labeled white.
+- L2Y: Box 2 was initially labeled yellow.
+- L3B: Box 3 was initially labeled with both colors.
+
+The knowledge base includes constraints and implications related to the initial labeling, observations, and box contents. For instance, if a yellow ball is observed in a box, then that box contains yellow balls (O1Y ⇒ C1Y). Similarly, if a white ball is observed in a box, then that box contains white balls (O2W ⇒ C2W).
+
+To prove that box 2 must contain white balls (C2W), we use the observation O2W ⇒ C2W. If a white ball is observed in box 2, then box 2 must indeed contain white balls.
+
+In summary, the propositional logic knowledge base helps deduce the correct labeling of the boxes based on the given observations and initial labels. The conclusion that box 2 contains white balls is derived through logical implications and constraints defined in the knowledge base.
